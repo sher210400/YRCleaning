@@ -1,9 +1,52 @@
 <% var data = {
   title: "Заголовок | Проект",
-  author: "Harrix"
+  author: "Anastasiia Shcherbina"
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
 
-<div class="container">Первая страница.</div>
+<main class="container">
+  <div class="main-page">
+    <div class="main-page__left-part">
+      <p class="text-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui diam potenti non Senectus diam
+        morbi interdum ornare.</p>
+      <p class="title--huge">
+        <span class="title--huge-light">Ваша</span>
+        <span class="title--huge-dark">Уборка</span>
+      </p>
+      <p class="text-normal text-width">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui diam potenti non
+        Senectus diam
+        morbi interdum ornare.</p>
+    </div>
+    <div class="main-page__center">
 
-<%= _.template(require('./../includes/footer.html').default)(data) %>
+    </div>
+    <div class="main-page__right-part">
+      <p class="title--big-tint">Your Cleaning</p>
+      <p class="title--big-black">Клининговая компания</p>
+      <p class="text-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <button class="button">Обратный звонок</button>
+      <div class="social-block">
+        <ul class="social-icons">
+          <li class="social-icon">
+            <a href="">
+              <img src="../../img/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li class="social-icon">
+            <a href="">
+              <img src="../../img/instagram.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="social-icon">
+            <a href="">
+              <img src="../../img/mail_icon.svg" alt="mail_icon">
+            </a>
+          </li>
+        </ul>
+        <span class="vertical-line">
+          &nbsp;
+        </span>
+      </div>
+    </div>
+  </div>
+</main>

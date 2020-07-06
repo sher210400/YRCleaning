@@ -1,6 +1,7 @@
 @import 'typography';
 
 body {
+  margin: 0;
   
   .button{
     font-weight: bold;
@@ -9,5 +10,91 @@ body {
     text-transform: uppercase;
 
     color: $white;
+
+    width: 276px;
+    height: 66.56px;
+
+    background: #0D7A0D;
+    border-radius: 61px;
+    border: none;
+
+    &:hover{
+      cursor: pointer;
+      background: #69AB6B;
+      transition: 1s;
+    }
   }
+
+  header{
+    margin: 0 48px 0 64px;
+    display: flex;
+    justify-content: space-between;
+    
+    .menu{
+      width: 55%;
+      margin-top: 60px;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+        &-item{
+          list-style: none;
+
+        }
+    }
+  }
+
+  .container{
+    height: 80vh;
+    margin: 0 48px 0 79px;
+    .main-page{
+      display: flex;
+      justify-content: space-between;
+
+      & >div{
+        width: 30%;
+      }
+
+      .main-page__left-part{
+        margin-top: 60px;
+        .text-width{
+          max-width: 70%;
+        }
+      }
+
+      .main-page__right-part{
+        position: relative;
+        margin-top: 80px;
+        .text-normal{
+          max-width: 70%;
+          margin-bottom: 60px;
+        }
+      }
+
+      .social-block{
+        position: absolute;
+        width: 29.94px;
+        display: flex;
+        justify-content: space-between;
+        top: 30%;
+        right: 10%;
+        .vertical-line{
+          background: black;
+          width: 3px;
+          height: 89.5px;;
+        }
+        .social-icons{
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          .social-icon{
+            list-style: none;
+            width: 16px;
+          }
+        }
+      }
+    }
+  }
+
 }

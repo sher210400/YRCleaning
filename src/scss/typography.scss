@@ -10,10 +10,11 @@ $white:#FFFFFF;
 body{
     font-family: 'Montserrat', sans-serif;
 
-    header .menu{
+    header .menu a{
         font-weight: 500;
         font-size: 14px;
         text-transform: uppercase;
+        text-decoration: none;
 
         color: $grey;
     }
@@ -23,6 +24,8 @@ body{
     .title--huge{
         font-weight: 800;
         font-size: 90px;
+        text-transform: uppercase;
+        margin: 60px 0;
 
         &-dark{
             color: $tint;
@@ -37,6 +40,7 @@ body{
         font-weight: bold;
         font-size: 45px;
         line-height: 136.9%;
+        margin: 20px 0 10px;
 
         color: $light;
     }
@@ -45,6 +49,8 @@ body{
         font-weight: bold;
         font-size: 30px;
         line-height: 101.9%;
+        max-width: 80%;
+        margin: 20px 0;
 
         color: $black;
     }
