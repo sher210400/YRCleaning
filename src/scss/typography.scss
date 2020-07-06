@@ -1,0 +1,93 @@
+$dark-green: #084D08;
+$green: #095209;
+$base: #0D7A0D;
+$tint: #2B8A2B;
+$light: #69AB6B;  
+$grey: #343434;
+$black: #000000;
+$white:#FFFFFF;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    header .menu{
+        font-weight: 500;
+        font-size: 14px;
+        text-transform: uppercase;
+
+        color: $grey;
+    }
+
+    // For main
+
+    .title--huge{
+        font-weight: 800;
+        font-size: 90px;
+
+        &-dark{
+            color: $tint;
+        }
+
+        &-light{
+            color: $light;
+        }
+    }
+
+    .title--big-tint{
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 136.9%;
+
+        color: $light;
+    }
+
+    .title--big-black{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 101.9%;
+
+        color: $black;
+    }
+
+    // For all pages
+
+    .title--normal{
+        font-weight: bold;
+        font-size: 45px;
+        line-height: 136.9%;
+
+        color: $base;
+    }
+
+    .title--little{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 167.4%;
+
+        color: $black;
+    }
+
+    .text--normal{
+        font-size: 14px;
+        line-height: 180.4%;
+
+        color: $black;
+    }
+
+    .text--light{
+        font-size: 14px;
+        line-height: 180.4%;
+
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .inscriptions{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 180.4%;
+
+        color: $white;
+    }
+
+}
+
